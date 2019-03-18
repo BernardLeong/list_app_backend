@@ -1,24 +1,13 @@
-# README
+# List App backend
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+##User stories
 
-Things you may want to cover:
+###User can do crud on their list
 
-* Ruby version
+User can interactively edit and update list without page
+User can log in *
+User can paginate list(interactive)
+User can search list
 
-* System dependencies
 
-* Configuration
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
