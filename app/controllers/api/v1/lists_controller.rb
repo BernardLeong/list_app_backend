@@ -10,6 +10,12 @@ module Api::V1
             render json: @list
         end
 
+        def update
+            @list=List.find(params[:id])
+            @list.update_attributes(list_params)
+            render json: @list
+        end
+
         private
 
         def list_params
